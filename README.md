@@ -53,4 +53,5 @@ each time the user changes the graph this functions is called and redraws the ne
 a random position that makes sense. if there are a couple of nodes without a position we get a random number between 1 and the amount of nodes in the graph, lets say the 
 number is n, and thats the amount of nodes we are going to pick to get the x position we take n random nodes that have a position and get the average of their x coordinate.
 we do the same with different random numbers for the y coordinate. if all of the nodes dont have a position we give them all a random x and y between 0 and 1 and nultiply
-it by the size of the screen.
+it by the size of the screen. the GUI is very easy to use, the menu contains named buttons for each function you can run on the graph and specifies the right way to enter 
+your input.
